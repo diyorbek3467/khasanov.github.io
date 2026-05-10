@@ -1,133 +1,90 @@
 ---
-layout: single
-title: "Curriculum Vitae"
+layout: archive
+title: "CV"
 permalink: /cv/
 author_profile: true
+redirect_from:
+  - /resume
 ---
 
-<style>
-.cv-section {
-  margin-top: 30px;
-}
+{% include base_path %}
 
-.cv-title {
-  font-size: 22px;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-}
+## Education
 
-.cv-item {
-  margin-top: 15px;
-}
+* **Ph.D. in Nuclear Technology and Applications**
+  University of Chinese Academy of Sciences / Institute of Modern Physics, CAS
+  Beijing / Lanzhou, China | *2019 – 2024*
+  Thesis: *Research on electron beam irradiation technology based on microtron accelerator and development of dose calculation algorithm*
+  Supervisor: Prof. Youwu Su
+  Funded by: CAS-TWAS President's Fellowship Programme
 
-.cv-role {
-  font-weight: 600;
-}
+* **M.Sc. in Nuclear Physics**
+  Samarkand State University, Samarkand, Uzbekistan | *2017 – 2019*
 
-.cv-place {
-  color: #2c7be5;
-}
-
-.cv-period {
-  float: right;
-  color: #888;
-}
-
-.cv-desc {
-  margin-top: 5px;
-}
-</style>
-
-## 📄 Curriculum Vitae
-
-👉 <a href="/files/Akmal_Safarov_resume.pdf" style="color:#2c7be5; font-weight:600;">⬇ Download Full CV (PDF)</a>
+* **B.Sc. in Physics**
+  Samarkand State University, Samarkand, Uzbekistan | *2012 – 2016*
 
 ---
 
-<div class="cv-section">
-<div class="cv-title">💼 Professional Experience</div>
+## Work Experience
 
-<div class="cv-item">
-<span class="cv-role">Associate Professor</span>
-<span class="cv-period">2019 – Present</span><br>
-<span class="cv-place">Samarkand State University</span>
-<div class="cv-desc">
-Teaching, project management, and nuclear laboratory development.
-</div>
-</div>
+* **Associate Professor** — Samarkand State University
+  *Sep 2025 – Present* | Samarkand, Uzbekistan
+  - Deliver undergraduate lectures in Interaction of Particles and Radiation with Matter, Fundamentals of Atomic and Nuclear Physics, and Dosimetry
+  - Conduct independent research on environmental radioactivity, radionuclide migration, and pollution assessment
+  - Contribute to IAEA-based projects and the MIT-Samarkand (MISTI) international collaboration
 
-<div class="cv-item">
-<span class="cv-role">Visiting Scholar</span>
-<span class="cv-period">2022</span><br>
-<span class="cv-place">MIT, USA</span>
-<div class="cv-desc">
-Worked on reactor physics simulations using Python and OpenMC.
-</div>
-</div>
+* **Senior Researcher** — Samarkand State University
+  *2024 – 2025* | Samarkand, Uzbekistan
+  - Led research on environmental radioactivity including radionuclide spectrometry and elemental composition analysis via neutron activation
+  - Collaborated on IAEA-funded and MISTI international projects; presented findings at international conferences
+  - Applied activation analysis for nuclear reaction studies and archaeometallurgical investigations
 
-<div class="cv-item">
-<span class="cv-role">Research Fellow</span>
-<span class="cv-period">2015 – 2016</span><br>
-<span class="cv-place">IAEA, Vienna</span>
-<div class="cv-desc">
-Gamma spectrometry and radiation data analysis.
-</div>
-</div>
+* **Doctoral Researcher** — Institute of Modern Physics, Chinese Academy of Sciences
+  *2019 – 2024* | Lanzhou, China
+  - Developed analytical dose calculation model for solid-state sample irradiation using microtron-type electron beam accelerator
+  - Performed Monte Carlo simulations (FLUKA) for radiation shielding design and induced radioactivity analysis at HIAF and proton therapy facilities
+  - Conducted measurements and calculations of leakage neutron spectra from U-238 and Pb targets
+  - Co-developed radiation safety assessments for heavy-ion and proton therapy treatment rooms
 
-</div>
+* **Junior Researcher** — Samarkand State University
+  *2021 – 2023* | Samarkand, Uzbekistan
+  - Investigated environmental radioactivity through gamma spectrometry and neutron activation analysis
+  - Assessed radiological risks in soil and groundwater near former underground nuclear explosion sites
+  - Co-authored published studies on natural radionuclide profiles, radon hazards, and heavy metal contamination
 
 ---
 
-<div class="cv-section">
-<div class="cv-title">🎓 Education</div>
+## Technical Skills
 
-<div class="cv-item">
-PhD in Nuclear Physics — Institute of Nuclear Physics (2021)
-</div>
-
-<div class="cv-item">
-MSc in Nuclear Physics — Samarkand State University (2009)
-</div>
-
-<div class="cv-item">
-BSc in Physics — Samarkand State University (2007)
-</div>
-
-</div>
+**Simulation & Modeling:** FLUKA Monte Carlo code
+**Experimental Techniques:** Gamma spectrometry (HPGe, NaI(Tl)), neutron activation analysis, electron beam irradiation, radiation dosimetry
+**Software & Programming:** OriginLab, Python, Wolfram Mathematica, MS Office Suite
 
 ---
 
-<div class="cv-section">
-<div class="cv-title">🔬 Research Interests</div>
+## Languages
 
-- Radiation monitoring  
-- Nuclear instrumentation  
-- Environmental radioactivity  
-- Data analysis and simulations  
-
-</div>
-
----
-
-<div class="cv-section">
-<div class="cv-title">🛠 Skills</div>
-
-- Programming: C++, Python  
-- Data Analysis: ROOT, Origin  
-- Mapping: QGIS, Google Earth  
-- Software: MATLAB, Mathematica  
-- Systems: Linux, Windows  
-
-</div>
+| Language | Level |
+|----------|-------|
+| Uzbek | Native |
+| Tajik | Fluent |
+| Russian | Fluent |
+| English | Fluent |
+| Chinese | Basic |
 
 ---
 
-<div class="cv-section">
-<div class="cv-title">🌍 Languages</div>
+## Publications
 
-- English  
-- Russian  
-- Uzbek  
-- Tajik  
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
 
-</div>
+---
+
+## Teaching
+
+{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
