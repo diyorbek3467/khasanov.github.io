@@ -1,65 +1,42 @@
 ---
 layout: archive
-title: "Projects"
+title: "Honours & Awards"
 permalink: /projects/
+author_profile: true
 ---
 
-<style>
-.project-card {
-  border-left: 4px solid #28a745;
-  background: #f8fff9;
-  padding: 15px 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  transition: 0.3s;
-}
+## 🏆 Awards & Grants
 
-.project-card:hover {
-  background: #eaffea;
-  transform: translateY(-2px);
-}
+### CAS-TWAS President's Fellowship Programme
+**Institution:** Chinese Academy of Sciences & TWAS
+**Year:** 2019
+Full doctoral scholarship at the University of Chinese Academy of Sciences / Institute of Modern Physics, CAS (Beijing/Lanzhou, China).
 
-.project-title {
-  font-weight: 600;
-  font-size: 16px;
-}
+---
 
-.project-role {
-  color: #555;
-  margin-top: 5px;
-}
+### IAEA Conference Travel Grant
+**Institution:** International Atomic Energy Agency (IAEA)
+**Amount:** EUR 1,700
+**Year:** 2022
+Awarded for participation in the International Conference on Safety and Security of Radioactive Sources, Vienna, Austria.
 
-.project-desc {
-  margin-top: 5px;
-}
+---
 
-.project-funding {
-  float: right;
-  color: #28a745;
-  font-weight: 500;
-}
-</style>
+### Excellent International Student Award
+**Institution:** University of Chinese Academy of Sciences
+**Years:** 2022, 2023
+Recognized for outstanding academic performance and research contributions during doctoral studies at UCAS/IMP-CAS.
 
-## 🚀 Projects
+---
 
-{% for proj in site.data.projects %}
-<div class="project-card">
+## 📋 Conferences & Presentations
 
-  <div class="project-funding">
-    {{ proj.funding }}
-  </div>
-
-  <div class="project-title">
-    {{ proj.title }}
-  </div>
-
-  <div class="project-role">
-    {{ proj.role }}
-  </div>
-
-  <div class="project-desc">
-    {{ proj.description }}
-  </div>
-
-</div>
-{% endfor %}
+| Date | Event | Location | Format |
+|------|-------|----------|--------|
+| 2025 | Joint ICTP-IAEA International School on Nuclear Security | Trieste, Italy | In person |
+| 2025 | ICTP School on Synchrotron Light Sources and Applications | ICTP, Italy | Online |
+| 2024 | International Conference on Perspective Use of Nuclear Energy (OIC) | Samarkand, Uzbekistan | In person |
+| 2023 | 29th ISINN Seminar — Interactions of Neutrons with Nuclei | Lanzhou, China | In person |
+| 2022 | IAEA International Conference on Safety and Security of Radioactive Sources | Vienna, Austria | Online |
+| 2022 | Joint ICTP-IAEA Nuclear Energy Management School | ICTP, Italy | Online |
+| 2021 | IAEA Technical Meeting on Nuclear Education | — | Online (Country Representative) |
