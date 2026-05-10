@@ -12,6 +12,23 @@ a:hover {
   opacity: 0.8;
 }
 
+/* =============================================
+   Fayl: assets/css/custom.css
+   Avatar ni doira o'rniga to'rtburchak qilish
+   ============================================= */
+
+.author__avatar img {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border: 3px solid #e0e0e0;
+  max-width: 200px;
+  width: 100%;
+}
+
+.author__avatar {
+  border-radius: 0 !important;
+}
+
 /* Cards (universal) */
 .card {
   border-left: 4px solid #2c7be5;
