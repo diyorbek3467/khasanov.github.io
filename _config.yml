@@ -36,7 +36,7 @@ search_full_content      : true
 # --- Site Author ---
 author:
   name             : "Shakhboz Khasanov"
-  avatar           : "images/shakhboz.jpg"
+  avatar           : "shakhboz.jpg"
   bio              : "Associate Professor | Nuclear Physicist"
   location         : "Samarkand, Uzbekistan"
   employer         : "Samarkand State University"
