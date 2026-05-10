@@ -2,58 +2,47 @@
 layout: archive
 title: "Experience"
 permalink: /experience/
+author_profile: true
 ---
 
-<style>
-.timeline {
-  border-left: 3px solid #6c757d;
-  padding-left: 20px;
-}
+## Academic Positions
 
-.exp-item {
-  margin-bottom: 25px;
-  position: relative;
-}
+### Associate Professor
+**Samarkand State University**
+*September 2025 – Present | Samarkand, Uzbekistan*
 
-.exp-item::before {
-  content: "";
-  position: absolute;
-  left: -10px;
-  top: 5px;
-  width: 12px;
-  height: 12px;
-  background: #6c757d;
-  border-radius: 50%;
-}
+- Deliver undergraduate lectures in Interaction of Particles and Radiation with Matter, Fundamentals of Atomic and Nuclear Physics, and Dosimetry
+- Conduct independent research on environmental radioactivity, radionuclide migration, and pollution assessment
+- Contribute to IAEA-based projects and the MIT-Samarkand (MISTI) international collaboration
 
-.exp-title {
-  font-weight: 600;
-  font-size: 16px;
-}
+---
 
-.exp-place {
-  color: #2c7be5;
-}
+### Senior Researcher
+**Samarkand State University**
+*2024 – 2025 | Samarkand, Uzbekistan*
 
-.exp-period {
-  color: #888;
-  font-size: 14px;
-}
+- Led research on environmental radioactivity including radionuclide spectrometry and elemental composition analysis via neutron activation
+- Collaborated on IAEA-funded and MISTI international projects
+- Presented research findings at international conferences
+- Applied activation analysis methods for nuclear reaction studies and archaeometallurgical investigations
 
-.exp-desc {
-  margin-top: 5px;
-}
-</style>
+---
 
-## 💼 Professional Experience
+### Doctoral Researcher
+**Institute of Modern Physics, Chinese Academy of Sciences**
+*2019 – 2024 | Lanzhou, China*
 
-<div class="timeline">
-{% for exp in site.data.experience %}
-  <div class="exp-item">
-    <div class="exp-title">{{ exp.title }}</div>
-    <div class="exp-place">{{ exp.place }}</div>
-    <div class="exp-period">{{ exp.period }}</div>
-    <div class="exp-desc">{{ exp.description }}</div>
-  </div>
-{% endfor %}
-</div>
+- Developed an analytical dose calculation model for solid-state sample irradiation using a microtron-type electron beam accelerator
+- Performed Monte Carlo simulations (FLUKA) for radiation shielding design and induced radioactivity analysis at HIAF and proton therapy facilities
+- Conducted measurements and calculations of leakage neutron spectra from U-238 and Pb targets
+- Co-developed radiation safety assessments for heavy-ion and proton therapy treatment rooms
+
+---
+
+### Junior Researcher
+**Samarkand State University**
+*2021 – 2023 | Samarkand, Uzbekistan*
+
+- Investigated environmental radioactivity through gamma spectrometry and neutron activation analysis across multiple Uzbek sites
+- Assessed radiological risks in soil and groundwater near former underground nuclear explosion sites and reservoirs
+- Co-authored published studies on natural radionuclide profiles, radon hazards, and heavy metal contamination
