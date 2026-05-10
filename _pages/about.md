@@ -1,23 +1,23 @@
 ---
-layout: single
-title: "About me"
 permalink: /
+title: "About me"
+excerpt: "About me"
 author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
+
 Welcome!
 
-I am a nuclear physicist and researcher specializing in radiation monitoring, nuclear instrumentation, and environmental radioactivity. Currently, I serve as an Associate Professor at Samarkand State University, where I am actively involved in teaching, scientific research, and the development of laboratory infrastructure.
+I am a nuclear physicist specializing in radiation transport simulations, environmental radioactivity, accelerator physics, and radiation protection. Currently, I serve as an Associate Professor at Samarkand State University, where I deliver lectures in Interaction of Particles and Radiation with Matter, Fundamentals of Atomic and Nuclear Physics, and Dosimetry, and conduct independent research on environmental radioactivity and radionuclide migration.
 
-My research focuses on radiation measurements, gamma spectroscopy, and environmental monitoring of radionuclides. I have extensive experience in analyzing radiation data, conducting field measurements, and developing methodologies for radiation safety and nuclear applications.
+My research interests include nuclear technology and applications, environmental radioactivity and radiological risk assessment, radiation protection and dosimetry, accelerator physics and electron beam irradiation, Monte Carlo radiation transport simulations, neutron activation analysis, and induced radioactivity at particle accelerators.
 
-I obtained my PhD in Nuclear Physics from the Institute of Nuclear Physics (Uzbekistan) in 2021, following my Master’s and Bachelor’s degrees in Physics from Samarkand State University.
+I obtained my Ph.D. in Nuclear Technology and Applications from the University of Chinese Academy of Sciences and the Institute of Modern Physics (IMP-CAS) in 2024, supported by the prestigious CAS-TWAS President's Fellowship Programme. My doctoral research focused on electron beam irradiation technology based on a microtron accelerator and the development of a dose calculation algorithm. Prior to this, I completed my M.Sc. and B.Sc. degrees in Physics at Samarkand State University.
 
-Over the years, I have participated in several international research programs and collaborations. I was a research fellow at the International Atomic Energy Agency (IAEA) in Vienna, where I worked on in-situ gamma spectrometry and data analysis. I also conducted research at the University of Surrey (UK) and Argonne National Laboratory (USA), focusing on detector calibration, nuclear reactor simulations, and radiation measurements.
+During my doctoral studies at IMP-CAS (Lanzhou, China), I developed an analytical dose calculation model for solid-state sample irradiation, performed Monte Carlo simulations using FLUKA for radiation shielding design and induced radioactivity analysis at HIAF and proton therapy facilities, and co-developed radiation safety assessments for heavy-ion and proton therapy treatment rooms.
 
-In addition, I was a visiting scholar at the Massachusetts Institute of Technology (MIT), contributing to the development of computational tools for reactor physics using Python and OpenMC.
+I am the author and co-author of over 30 peer-reviewed publications in international journals, including Nuclear Instruments and Methods in Physics Research, Applied Radiation and Isotopes, European Physical Journal Plus, Environmental Monitoring and Assessment, and Radiochimica Acta. My research contributions span accelerator-based nuclear physics, environmental radioactivity monitoring, neutron activation analysis, and radiation shielding design.
 
-I have led and contributed to multiple international and national projects, including IAEA technical cooperation programs and research initiatives funded by international organizations. My work includes designing laboratory systems, developing educational programs, and implementing modern technologies in nuclear science education.
-
-I am the author of numerous scientific publications in international peer-reviewed journals and conference proceedings. My research interests also extend to data analysis, simulation, and the application of modern computational techniques in nuclear science.
-
-
+I have also contributed to IAEA-funded projects and the MIT-Samarkand (MISTI) international collaboration, and have presented my research at international conferences in Italy, China, Austria, and Uzbekistan.
