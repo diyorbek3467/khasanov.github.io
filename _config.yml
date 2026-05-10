@@ -1,22 +1,205 @@
+# =============================================
+# _config.yml — Shakhboz Khasanov
+# To'g'ri URL: https://diyorbek3467.github.io/khasanov.github.io/
+# =============================================
+
+# --- Site Settings ---
 locale                   : "en-US"
 title                    : "Shakhboz Khasanov"
 title_separator          : "-"
 name                     : &name "Shakhboz Khasanov"
 description              : &description "Ph.D. in Nuclear Technology and Applications"
-url                      : https://khasanov.github.io
+url                      : "https://diyorbek3467.github.io"
 baseurl                  : "/khasanov.github.io"
 repository               : "diyorbek3467/khasanov.github.io"
 
+# --- SEO ---
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+
+# --- Comments ---
+comments:
+  provider               : false
+
+# --- Atom Feed ---
+atom_feed:
+  hide                   : false
+
+# --- Search ---
+search                   : true
+search_full_content      : true
+
+# --- Site Author ---
 author:
   name             : "Shakhboz Khasanov"
   avatar           : "images/shakhboz.jpg"
   bio              : "Associate Professor | Nuclear Physicist"
   location         : "Samarkand, Uzbekistan"
   employer         : "Samarkand State University"
+  uri              :
   email            : "shakhbozkhasanov93@gmail.com"
+  googlescholar    :
   orcid            : "https://orcid.org/0000-0001-6787-9492"
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57224443023"
   researchgate     : "https://www.researchgate.net/profile/Shakhboz-Khasanov-2"
-  googlescholar    : ""
-  github           : ""
-  linkedin         : ""
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57224443023"
+  github           :
+  linkedin         :
+  twitter          :
+
+# --- Reading Files ---
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# --- Conversion ---
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# --- Markdown Processing ---
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# --- Collections ---
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# --- Default Layouts ---
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# --- Sass/SCSS ---
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# --- Outputting ---
+permalink: /:categories/:title/
+timezone: Asia/Tashkent
+
+# --- Plugins ---
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# --- Archives ---
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# --- HTML Compression ---
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
