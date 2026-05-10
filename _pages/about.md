@@ -1,11 +1,8 @@
 ---
-permalink: /
+layout: single
 title: "About me"
-excerpt: "About me"
+permalink: /
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 Welcome!
